@@ -1,0 +1,34 @@
+export const Main = () => {
+    return (<>
+    <h2>Main</h2>
+    <h2>Main</h2>
+    <h2>Main</h2>
+    <h2>Main</h2>
+    <h2>Main</h2>
+    <h2>Main</h2>
+    <h2>Main</h2>
+    <h2>Main</h2>
+    <h2>Main</h2>
+    <h2>Main</h2>
+    <h2>Main</h2>
+    <h2>Main</h2>
+    <h2>Main</h2>
+    <h2>Main</h2>
+    <h2>Main</h2>
+    <h2>Main</h2>
+    <h2>Main</h2>
+    <h2>Main</h2>
+    <h2>Main</h2>
+    <h2>Main</h2>
+    <h2>Main</h2>
+    <h2>Main</h2>
+    <h2>Main</h2>
+    <h2>Main</h2>
+    <h2>Main</h2>
+    <h2>Main</h2>
+    <h2>Main</h2>
+    <h2>Main</h2>
+    <h2>Main</h2>
+    <h2>Main</h2>
+    </>)
+}
