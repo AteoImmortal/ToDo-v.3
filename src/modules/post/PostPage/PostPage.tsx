@@ -25,9 +25,9 @@ export const PostPage = () => {
         navigate(`../${+postId! + 1}`)
     }
 
-    return  <div className="container">
-            {post &&    <div className="content">
-                            <button className="back__btn" onClick={handleGoBackButtonClick}>Go Back</button>
+    return  <>
+                {post &&    <div className="content">
+                            <button className="back__btn" onClick={handleGoBackButtonClick}>Вернуться назад</button>
                             <h1 className="title">{post.title}</h1>
                             <div className="body">{post.body}</div>
                             <div className="tags">
@@ -41,6 +41,6 @@ export const PostPage = () => {
                                 )}
                             </div>
                         </div>}
-                        <button className="next__page" onClick={handleNextPageClick}>Next Page</button>
-            </div>
+                        <button className="next__page" onClick={handleNextPageClick}>Следующий пост</button>
+            </>
 }

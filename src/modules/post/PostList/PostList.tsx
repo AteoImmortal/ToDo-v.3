@@ -16,10 +16,10 @@ export const PostList = () => {
         })
     },[])
 
-    return  <div className="container">
+    return  <div className="post">
                 {posts.length !== 0 && posts.map((shortPost) => 
                     <div className="post__item" key={shortPost.id}>
-                        <div className="post__number">{shortPost.id}</div>
+                        <div className="post__number">{shortPost.id}.</div>
                         <div className="post__title">
                             <Link to={`/post/${shortPost.id}`}>{shortPost.title}</Link>
                         </div>

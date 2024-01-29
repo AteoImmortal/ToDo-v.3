@@ -1,6 +1,7 @@
 import { NavLink, Outlet } from "react-router-dom"
 import { TodoCountContext } from "../../context/TodoCountContext"
 import { useContext } from "react"
+import './Layout.css'
 
 export const Layout = () => {
     const context = useContext(TodoCountContext)
@@ -19,10 +20,16 @@ export const Layout = () => {
                     </ul>
                 </nav>
             </header>
-            <div className="contant">
-                <Outlet />
-                <footer>2024</footer>
-            </div>
+                <main className="main">
+                    <div className="container">
+                        <Outlet />
+                    </div>
+                </main>
+                <footer className="footer">
+                    <div className="container">
+
+                    </div>
+                </footer>
         </>
     )
 }
